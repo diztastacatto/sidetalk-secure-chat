@@ -80,4 +80,85 @@ license
 # Configuration files with secrets
 config.json
 secrets.json
+
+# -------------------------
+
+# Backup files
+backup/
+*.bak
+
+# Minified files
+*_minified.py
+*_encoded.py
+*_protected.py
+*_antidebug.py
+
+# Obfuscated files (except the ones we want to commit)
+*_obfuscated_temp.py
+
+# Certificate files (if not committed)
+*.pem
+*.key
+*.crt
+*.csr
+
+# Upload and download directories
+upload/
+download/
+
+# Test files
+test_*.py
+*_test.py
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PyArmor specific
+.pyarmor_config
+.pyarmor_extensions
+
+# Build artifacts from PyInstaller
+*.exe
+*.exe_manifest
+*.exe_dependencies
+*.exe_lib/
+*.exe_manifest.dSYM
+*.exe.dSYM
+
+# Virtual environment specific
+.env.local
+.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# SFTP specific
+sftp_config.json
+
+# License file (if not committed)
+license
+
+# Configuration files with secrets
+config.json
+secrets.json
 EOF
