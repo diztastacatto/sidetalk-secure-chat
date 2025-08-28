@@ -45,13 +45,40 @@ This code contains multiple protection mechanisms:
 
 #### Installation:
 1. Clone this repository
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run the server: `python server_obfuscated.py`
-4. Run the client: `python client_obfuscated.py`
+2. Install dependencies: `sudo apt install python3`
+3. Run Commands : `python3 server.py`
+4. for client   : `python3 client.py`
+   Access clients and talk with them in order.
 
 #### Authentication:
 - Username: `admin`, `Client1`, or `Client2`
 - Password: `password`, `client1password` , `client2password`
+
+=== Sidetalk Secure Chat Help ===
+
+Available Commands:
+  <message>           - Send a chat message to all connected users
+  /sendfile <path>    - Upload a file to the server
+  /getfile <name>     - Download a file from the server
+  /help               - Show this help message
+  /exit               - Exit the application
+
+Authentication:
+  Username: admin, Client1, or Client2
+  Password: password
+
+File Transfer:
+  - Files are uploaded to ./upload/
+  - Files are downloaded from ./download/
+  - All file types are supported
+  - Multiple transfers can occur simultaneously
+
+Security:
+  - All communications are encrypted
+  - Files are transferred via secure SFTP
+  - Authentication is required for all operations
+=====================================
+
 
 ---
 
