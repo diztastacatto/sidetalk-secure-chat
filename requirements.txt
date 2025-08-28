@@ -1,0 +1,5 @@
+cryptography>=3.4.8
+paramiko>=2.8.0
+bcrypt>=3.2.0
+pyarmor>=6.7.0
+pyinstaller>=4.5.1
